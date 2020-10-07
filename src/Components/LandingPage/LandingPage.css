@@ -1,0 +1,76 @@
+.landing-page {
+    height: calc(100vh - 50px);
+    background-image: url(https://picsum.photos/1920/1080?grayscale);
+    background-position: center;
+    background-size: cover;
+    font-size: 18px;
+}
+
+.landing-page h1 {
+    font-size: 30px;
+}
+
+.landing-page-shadow {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(20, 13, 13, 0.3);
+}
+
+.landing-page-shadow > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: normal;
+}
+
+.landing-page-text {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+@media (min-width: 425px) {
+    .landing-page-text {
+        width: 80%;
+    }
+}
+
+.btn-offer {
+    padding: 2% 10%;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    text-align-last: center;
+}
+
+.btn-offer {
+    text-decoration: none;
+    text-align: justify;
+}
+
+.btn-offer:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition-duration: 1s;
+}
+
+@media (min-width: 768px) {
+    .landing-page-text {
+        width: 70%;
+    }
+
+    .landing-page h1 {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .landing-page-text {
+        width: 60%;
+    }
+}
