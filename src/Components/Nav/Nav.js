@@ -12,9 +12,9 @@ function Nav() {
             <div className="menu">
                 <a href="#staffPage">o nas</a>
                 <a href="#offers">oferta</a>
-                <a className="contact" href="#">kontakt</a>
+                <a className="contact" href>kontakt</a>
             </div>
-            <label for="toggle">
+            <label for ="toggle">
                 <i className="fas fa-bars" id="sign-one"></i>
                 <i className="fas fa-times" id="sign-two"></i>
             </label>

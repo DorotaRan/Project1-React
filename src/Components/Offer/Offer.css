@@ -17,6 +17,12 @@
     font-size: 24px;
 }
 
+.newOffer {
+    color: red;
+    margin-left: 5%;
+
+}
+
 .services {
     display: flex;
     flex-wrap: wrap;

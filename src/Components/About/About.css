@@ -35,30 +35,17 @@
     height: 200px;
     background-size: cover;
     background-position: center;
-}
-
-.pic-reverse,
-.pic-straight {
     margin: 5%;
-}
-
-.pic-reverse {
-    background-image: url(../../zdjecie1.jpg);
-}
-
-.pic-straight {
-    background-image: url(../../zdjecie2.jpg);
 }
 
 @media (min-width: 768px) {
     .about-employee {
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
 
-    .about-employee:nth-of-type(){
+    .about-employee:nth-of-type(odd){
         flex-direction: row;
         text-align: left;
     }
@@ -67,16 +54,16 @@
         flex-direction: row-reverse;
         text-align: right;
     }
-    
+
     .about-employee-desc {
         width: 75%;
     }
 
-    .pic-reverse {
+    .about-employee-pic:nth-of-type(even) {
         margin: 0 0 0 5%;
     }
 
-    .pic-straight {
+    .about-employee-pic:nth-of-type(odd) {
         margin: 0 5% 0 0;
     }
 }
