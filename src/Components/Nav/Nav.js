@@ -14,7 +14,7 @@ function Nav() {
                 <a href="#offers">oferta</a>
                 <a className="contact" href>kontakt</a>
             </div>
-            <label for ="toggle">
+            <label forhtml ="toggle">
                 <i className="fas fa-bars" id="sign-one"></i>
                 <i className="fas fa-times" id="sign-two"></i>
             </label>

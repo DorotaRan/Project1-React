@@ -7,7 +7,7 @@ function OfferBox({title, isNew}) {
         <div className={`${isNew ? "services-box-dot" : ""} `}></div>
         <div className="services-box-content">
         <h2>{title}</h2>
-        {isNew && <span class="newOffer">(Nowość!)</span>}
+        {isNew && <span className="newOffer">(Nowość!)</span>}
         </div>
     </div>
   );

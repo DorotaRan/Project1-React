@@ -58,14 +58,6 @@
     .about-employee-desc {
         width: 75%;
     }
-
-    .about-employee-pic:nth-of-type(even) {
-        margin: 0 0 0 5%;
-    }
-
-    .about-employee-pic:nth-of-type(odd) {
-        margin: 0 5% 0 0;
-    }
 }
 
 @media (min-width: 1024px) {
